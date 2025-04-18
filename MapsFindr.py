@@ -5,7 +5,7 @@
 #     search_agent = Agent(
 #         instructions="You help finding information details on events, shops or institutions on Google maps",
 #         llm="ollama/llama3.2",
-#         tools=MCP("npx -y @modelcontextprotocol/server-google-maps", env={"GOOGLE_MAPS_API_KEY": "AIzaSyAztN32dm25Xx2e88LEny9VZGB4SmUyxjs"})
+#         tools=MCP("npx -y @modelcontextprotocol/server-google-maps", env={"GOOGLE_MAPS_API_KEY": ""})
 #     )
 #     result = agent.start(query)
 #     return f"## Google Maps Search Results\n\n{result}"
